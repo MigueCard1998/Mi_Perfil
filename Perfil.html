@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Miguel Cardona</title>
+    <meta name="description"
+          content="Datos personales de Miguel Cardona, estudiante de Tecnología en Sistemas Informáticos de la Universidad de Caldas.">
+    <meta property="og:title" content="Miguel Cardona - Perfil Académico">
+    <meta property="og:description" content="Datos de Miguel Cardona">
+    <meta property="og:image" content="https://misitio.com/img/tarjeta.png">
+    <meta property="og:type" content="website">
+</head>
+
+<body> 
+    <header>
+        <h1>Miguel Angel Cardona Lopez</h1>
+
+        <p>
+            Estudiante de la Universidad de Caldas del programa 
+            Tecnología en Sistemas Informáticos.
+        </p>
+    </header>
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#formacion">Formación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy Miguel Angel Cardona Lopez, estudiante de Tecnología
+                en Sistemas Informáticos de la Universidad de Caldas.
+                Tambien actualmente soy empleado de la empresa Azul K
+                en el area comercial, desempeño el cargo de Mercaderista
+                Me gustan los deportes y la tecnologia
+                deseo continuar mi ciclo de formacion y llegar a la ingenieria.
+            </p>
+
+            <figure>
+                <img src="img/Perfil.png" alt="Foto de Miguel Angel Cardona Lopez" width="200">
+                <figcaption>
+                    Miguel Angel Cardona Lopez - Estudiante de Tecnología
+                    en Sistemas Informáticos.
+                </figcaption>
+            </figure>
+
+        </section>
+
+        <section id="formacion">
+
+            <h2>Formación académica</h2>
+
+            <table>
+
+                <caption>
+                    Formación académica de Miguel Angel Cardona Lopez
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Institución</th>
+                        <th>Título</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Universidad de Caldas</td>
+                        <td>Tecnología en Sistemas Informáticos</td>
+                        <td>2026</td>
+                    </tr>
+
+                    <tr>
+                        <td>IEE Normal Superior San Jose Pacora_Caldas</td>
+                        <td>Bachiller Académico</td>
+                        <td>2015</td>
+                    </tr>
+
+                    <tr>
+                        <td>IE La Milagrosa Pacora_Caldas</td>
+                        <td>Basica Secundaria</td>
+                        <td>2013</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section id="habilidades">
+
+            <h2>Habilidades</h2>
+
+            <p>
+                Estas son algunas de las tecnologías que conozco y
+                algunos de mis objetivos de aprendizaje para este semestre.
+            </p>
+
+            <h3>Tecnologías que conozco</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>SQL</li>
+            </ul>
+
+            <h3>Top 3 de cosas que quiero aprender este semestre</h3>
+
+            <ol>
+                <li>Desarrollo web avanzado</li>
+                <li>JavaScript y programación orientada a objetos</li>
+                <li>Programacion para dispositivos Moviles</li>
+            </ol>
+
+        </section>
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                Si deseas comunicarte conmigo, puedes utilizar el
+                siguiente formulario.
+            </p>
+
+
+            <form>
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                        minlength="3"
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="asunto">Asunto:</label>
+
+                    <select
+                        id="asunto"
+                        name="asunto"
+                        required
+                    >
+                        <option value="">Seleccione una opción</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="proyecto">Proyecto</option>
+                        <option value="trabajo">Trabajo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+
+                    <br>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        cols="40"
+                        required
+                        minlength="10"
+                    ></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <input
+                        type="checkbox"
+                        id="aceptar-datos"
+                        name="aceptar-datos"
+                        required
+                    >
+
+                    <label for="aceptar-datos">
+                        Acepto el tratamiento de mis datos personales.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Correo:miguel.cardona66797@ucaldas.edu.co
+        </p>
+
+        <p>
+        2026 Miguel Angel Cardona Lopez
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
